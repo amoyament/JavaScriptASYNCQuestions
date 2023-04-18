@@ -8,36 +8,4 @@ console.log(isDivisible10);
 
 //Using a function
 
-var isDiv10 = function(num = 100) {
 
-    if (num % 10 == 0) {
-          return true;  
-      }
-      else {
-          return false;    
-      }
-  };
-
-  console.log(isDiv10);
-
-
-
-
-// (function() {
-//     /*
-//      * isEven(n)
-//      * @args number n
-//      * @return boolean returns whether the given number is even
-//      */
-//     jQuery.isEven = function(number) {
-//         return number % 2 == 0;
-//     };
-
-//     /* isOdd(n)
-//      * @args number n
-//      * @return boolean returns whether the given number is odd
-//      */
-//     jQuery.isOdd = function(number) {
-//         return !jQuery.isEven(number);
-//     };
-// })();​
